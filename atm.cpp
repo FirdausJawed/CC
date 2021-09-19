@@ -10,10 +10,10 @@ int main (){
 
   if(x%5==0 && x<=y-0.5){
       y=y-x-0.5;
-    cout<<fixed<<setprecision(2)<<y;  
+    cout<<fixed<<setprecision(2)<<y<<endl;  
   }
   else{
-      cout<<y<<endl;
+     cout<<fixed<<setprecision(2)<<y<<endl;  
   }
 
     return 0;
