@@ -10,8 +10,11 @@ int main (){
   while (t--)
   {  
 
+    int A,B,X;
+    cin>>A>>B>>X;
+    int res = (B-A)/X;
+    cout<<res<<endl;
     
-    
-    }
+  }
     return 0;
 } 
