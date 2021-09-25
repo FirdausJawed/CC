@@ -1,0 +1,1 @@
+{"name":"Local: add","url":"c:\\Users\\FIRDAUS JAWED\\Desktop\\cp question\\codechef\\practice\\add.cpp","tests":[{"id":1632592590239,"input":"3\n1 2\n100 200\n10 40","output":"3\n300\n50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\FIRDAUS JAWED\\Desktop\\cp question\\codechef\\practice\\add.cpp","group":"local","local":true}
