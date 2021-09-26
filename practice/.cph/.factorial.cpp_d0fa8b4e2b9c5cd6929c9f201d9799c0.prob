@@ -1,0 +1,1 @@
+{"name":"Local: factorial","url":"c:\\Users\\FIRDAUS JAWED\\Desktop\\cp question\\codechef\\practice\\factorial.cpp","tests":[{"id":1632593670657,"input":"5\n1\n2\n5\n3\n0","output":"1\n2\n120\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\FIRDAUS JAWED\\Desktop\\cp question\\codechef\\practice\\factorial.cpp","group":"local","local":true}
