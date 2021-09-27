@@ -53,6 +53,21 @@ double eps = 1e-12;
  
 
 void solve(){
+    int a,b;
+    cin>>a>>b;
+
+    if (a<b)
+    {
+       cout<<"<"<<endl;
+    }
+    else if (a>b)
+    {
+       cout<<">"<<endl;
+    }
+    else{
+         cout<<"="<<endl;
+    }
+    
 }
 int main()
 {
@@ -60,7 +75,6 @@ int main()
  ll t;
  cin >> t;
  for(int it=1;it<=t;it++) {
- cout << "Case #" << it+1 << ": ";
  solve();
  }
  return 0;

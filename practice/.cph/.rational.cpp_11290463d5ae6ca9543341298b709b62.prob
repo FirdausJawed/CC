@@ -1,0 +1,1 @@
+{"name":"Local: rational","url":"c:\\Users\\FIRDAUS JAWED\\Desktop\\cp question\\codechef\\practice\\rational.cpp","tests":[{"id":1632759776469,"input":"3\n10 20\n20 10\n10 10","output":"<\n>\n=\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\FIRDAUS JAWED\\Desktop\\cp question\\codechef\\practice\\rational.cpp","group":"local","local":true}
