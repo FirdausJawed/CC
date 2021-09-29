@@ -1,0 +1,1 @@
+{"name":"Local: ship","url":"c:\\Users\\FIRDAUS JAWED\\Desktop\\cp question\\codechef\\practice\\ship.cpp","tests":[{"id":1632811271017,"input":"3 \nB\nc\nD\n","output":"BattleShip\nCruiser\nDestroyer\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\FIRDAUS JAWED\\Desktop\\cp question\\codechef\\practice\\ship.cpp","group":"local","local":true}
