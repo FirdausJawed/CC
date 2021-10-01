@@ -65,11 +65,11 @@ int main()
         cout<<"Solution"<<endl;
      }
     
-    else if (liquid=0)
+    else if (solid>0 && liquid==0)
     {
         cout<<"Solid"<<endl;
     }
-    else if (solid=0)
+    else if (solid==0 && liquid>0)
     {
         cout<<"Liquid"<<endl;
     }
