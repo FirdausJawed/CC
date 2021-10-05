@@ -52,16 +52,25 @@ double eps = 1e-12;
 #define sz(x) ((ll)(x).size())
  
 
-void solve(){
-}
 int main()
 {
  fast_cin();
- ll t;
+ int t;
  cin >> t;
- for(int it=1;it<=t;it++) {
- cout << "Case #" << it+1 << ": ";
- solve();
+ while(t--){
+      int x;
+    cin>>x;
+    
+    if (x%10==0)
+    {
+        cout<<"0"<<endl;
+    }
+    else if (x%10==5){
+        cout<<"1"<<endl;
+    }
+    else{
+        cout<<"-1"<<endl;
+    }
  }
  return 0;
 }
