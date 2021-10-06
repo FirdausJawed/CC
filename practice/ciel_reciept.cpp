@@ -53,6 +53,20 @@ double eps = 1e-12;
  
 
 void solve(){
+    int p;
+    cin>>p;
+
+    int arr[]={2048,1024,512,256,128,64,32,16,8,4,2,1};
+    int count=0,temp=p;
+
+    for (int i = 0; i < p; i++)
+    {
+        count+=temp/arr[i];
+        temp=p%arr[i];
+    }
+
+    cout<<count<<endl;
+    
 }
 int main()
 {
@@ -60,7 +74,6 @@ int main()
  ll t;
  cin >> t;
  for(int it=1;it<=t;it++) {
- cout << "Case #" << it+1 << ": ";
  solve();
  }
  return 0;
