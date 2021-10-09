@@ -1,0 +1,1 @@
+{"name":"Local: gross_salary","url":"c:\\Users\\FIRDAUS JAWED\\Desktop\\cp question\\codechef\\gross_salary.cpp","tests":[{"id":1633769604362,"input":"3\n1203\n10042\n1312","output":"2406.00\n20383.16\n2624"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\FIRDAUS JAWED\\Desktop\\cp question\\codechef\\gross_salary.cpp","group":"local","local":true}
