@@ -69,7 +69,7 @@ void solve(){
         }
         
     }
-    if (key1==1 || key0=='1')
+    if (key1==1 || key0==1)
     {
         cout<<"Yes"<<endl;
     }
