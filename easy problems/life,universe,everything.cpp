@@ -53,15 +53,26 @@ double eps = 1e-12;
  
 
 void solve(){
+    int n;
+    int flag = 1;
+    while(flag){
+        cin>>n;
+        if(n==42){
+            flag=0;
+        }
+        else{
+        cout<<n<<endl;
+        }
+    }
+    
 }
 int main()
 {
  fast_cin();
- ll t;
- cin >> t;
- for(int it=1;it<=t;it++) {
- cout << "Case #" << it+1 << ": ";
+//  ll t;
+//  cin >> t;
+//  for(int it=1;it<=t;it++) {
  solve();
- }
+//  }
  return 0;
 }
