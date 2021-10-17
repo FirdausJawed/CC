@@ -53,24 +53,15 @@ double eps = 1e-12;
  
 
 void solve(){
-    string s;
-    cin>>s;
-    int key=0;
-
-    for (int i = 0; i < 3; i++)
+    int a,b,c;
+    cin>>a>>b>>c;
+    if (a==b==c==7 || a==b==7 || a==c==7 || b==c==7 || a==7 || b==7 || c==7)
     {
-        if (s[i]=='7')
-        {
-            key==1;
-        }
-        
-    }
-    if (key==1)
-    {
-       cout<<"YES"<<endl;
+        cout<<"YES"<<endl;
     }
     else{
-     cout<<"NO"<<endl;
+        cout<<"NO"<<endl;
+
     }
     
     
