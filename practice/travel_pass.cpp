@@ -59,22 +59,21 @@ void solve(){
     string s;
     cin>>s;
 
-    int key0=0,key1=0;
+    int key=0;
 
     for (int i = 0; i < n; i++)
     {
-       if (s[i] == 0)
+       if (s[i] == '0')
        {
-          key0++;
+          key+=a;
        }
        else{
-           key1++;
+           key+=b;
        }
 
     }
 
-    int c = a*key0 + b*key1;
-    cout<<c<<endl;
+    cout<<key<<endl;
     
 }
 int main()
