@@ -53,30 +53,21 @@ double eps = 1e-12;
  
 
 void solve(){
-    int n;
-	cin >> n;
-	int arr[n];
-
-	for(int i = 0;i<n;i++){
-	    cin >> arr[i];
+    int n,i;
+    cin>>n;
+    ll x = n*(n+1)/2;
+    if(n==1){
+        cout<<"1 1"<<endl;
     }
-	    int less,more,cnt=0;
-	    for(int i =0;i<n;i++){
-            less=0,more=0;
-	        for(int j=0;j<n;j++){
-	            if(arr[j] <= arr[i]){
-	                less ++;
-	            }
-	            if(arr[j]>arr[i]){
-	                more++;
-	            }
-	        }
-	        if(less>more){
-	            cnt++;
-	        }
-	    }
-	cout<< cnt<<endl;
+    else{
     
+    for (ll i = 1; i < n; i++)
+    {
+       cout<<i<<" ";
+    }
+    ll p = powl(2,n);
+    cout<<i-1<<p-x+1<<endl;
+    }
 }
 int main()
 {
