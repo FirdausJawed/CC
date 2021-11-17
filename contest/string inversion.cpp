@@ -68,7 +68,7 @@ void solve()
         {
             zero++;
         }
-        else
+        else if (s[i] == '1')
         {
             one++;
         }
@@ -78,10 +78,37 @@ void solve()
         cout << "Bob" << ln;
         return;
     }
-    ll round = 0;
+    if (zero == 1 || one == 1)
+    {
+        cout << "Alice" << ln;
+        return;
+    }
+    int k = 0;
+    ll count = 0;
+    ll maxi = max(zero, one);
     ll mini = min(zero, one);
-    round = mini;
-    if (round % 2 == 0)
+    count = maxi - mini;
+    maxi = maxi - count;
+    if (maxi == mini)
+    {
+        while (mini != 1 && maxi != 1)
+        {
+            count++;
+            if (k == 0)
+            {
+                maxi--;
+                k = 1;
+            }
+            else
+            {
+                mini--;
+                k = 0;
+            }
+            
+        }
+    }
+    count++;
+    if (count % 2 != 0)
     {
         cout << "Alice" << ln;
     }
